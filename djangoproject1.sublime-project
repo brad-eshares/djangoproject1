@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/BKN/Dropbox/test_envs/djangoproject1"
+		}
+	],
+
+    "build_systems":
+       [
+        {
+            "cmd": ["python","${file}","command1"],
+            "env": {"PYTHONPATH":"/Users/BKN/Dropbox/test_envs/djangoproject1-env/bin"},
+            "name": "djangoproject1"
+        }
+    ]
+}
